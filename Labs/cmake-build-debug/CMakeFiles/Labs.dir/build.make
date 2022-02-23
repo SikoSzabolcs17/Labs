@@ -74,17 +74,59 @@ CMakeFiles\Labs.dir\main.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Labs.dir\main.c.s /c "D:\Egyetem\Elso ev II\Adat1\Labor\Labs\main.c"
 <<
 
+CMakeFiles\Labs.dir\shared\src\errors.c.obj: CMakeFiles\Labs.dir\flags.make
+CMakeFiles\Labs.dir\shared\src\errors.c.obj: ..\shared\src\errors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Egyetem\Elso ev II\Adat1\Labor\Labs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Labs.dir/shared/src/errors.c.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Labs.dir\shared\src\errors.c.obj /FdCMakeFiles\Labs.dir\ /FS -c "D:\Egyetem\Elso ev II\Adat1\Labor\Labs\shared\src\errors.c"
+<<
+
+CMakeFiles\Labs.dir\shared\src\errors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Labs.dir/shared/src/errors.c.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Labs.dir\shared\src\errors.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Egyetem\Elso ev II\Adat1\Labor\Labs\shared\src\errors.c"
+<<
+
+CMakeFiles\Labs.dir\shared\src\errors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Labs.dir/shared/src/errors.c.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Labs.dir\shared\src\errors.c.s /c "D:\Egyetem\Elso ev II\Adat1\Labor\Labs\shared\src\errors.c"
+<<
+
+CMakeFiles\Labs.dir\shared\src\messages.c.obj: CMakeFiles\Labs.dir\flags.make
+CMakeFiles\Labs.dir\shared\src\messages.c.obj: ..\shared\src\messages.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Egyetem\Elso ev II\Adat1\Labor\Labs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Labs.dir/shared/src/messages.c.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Labs.dir\shared\src\messages.c.obj /FdCMakeFiles\Labs.dir\ /FS -c "D:\Egyetem\Elso ev II\Adat1\Labor\Labs\shared\src\messages.c"
+<<
+
+CMakeFiles\Labs.dir\shared\src\messages.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Labs.dir/shared/src/messages.c.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Labs.dir\shared\src\messages.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Egyetem\Elso ev II\Adat1\Labor\Labs\shared\src\messages.c"
+<<
+
+CMakeFiles\Labs.dir\shared\src\messages.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Labs.dir/shared/src/messages.c.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Labs.dir\shared\src\messages.c.s /c "D:\Egyetem\Elso ev II\Adat1\Labor\Labs\shared\src\messages.c"
+<<
+
 # Object files for target Labs
 Labs_OBJECTS = \
-"CMakeFiles\Labs.dir\main.c.obj"
+"CMakeFiles\Labs.dir\main.c.obj" \
+"CMakeFiles\Labs.dir\shared\src\errors.c.obj" \
+"CMakeFiles\Labs.dir\shared\src\messages.c.obj"
 
 # External object files for target Labs
 Labs_EXTERNAL_OBJECTS =
 
 Labs.exe: CMakeFiles\Labs.dir\main.c.obj
+Labs.exe: CMakeFiles\Labs.dir\shared\src\errors.c.obj
+Labs.exe: CMakeFiles\Labs.dir\shared\src\messages.c.obj
 Labs.exe: CMakeFiles\Labs.dir\build.make
 Labs.exe: CMakeFiles\Labs.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Egyetem\Elso ev II\Adat1\Labor\Labs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Labs.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Egyetem\Elso ev II\Adat1\Labor\Labs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Labs.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Labs.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Labs.dir\objects1.rsp @<<
  /out:Labs.exe /implib:Labs.lib /pdb:"D:\Egyetem\Elso ev II\Adat1\Labor\Labs\cmake-build-debug\Labs.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

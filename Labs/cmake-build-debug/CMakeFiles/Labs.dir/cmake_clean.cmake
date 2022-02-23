@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Labs.dir/main.c.obj"
+  "CMakeFiles/Labs.dir/shared/src/errors.c.obj"
+  "CMakeFiles/Labs.dir/shared/src/messages.c.obj"
   "Labs.exe"
   "Labs.exe.manifest"
   "Labs.lib"

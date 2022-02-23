@@ -85,6 +85,18 @@
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/main.c">
 			<Option target="Labs"/>
 		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/headers/errors.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/headers/messages.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/src/errors.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/src/messages.c">
+			<Option target="Labs"/>
+		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

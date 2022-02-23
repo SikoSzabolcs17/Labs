@@ -3,3 +3,9 @@
 
 CMakeFiles\Labs.dir\main.c.obj: ..\main.c
 
+CMakeFiles\Labs.dir\shared\src\errors.c.obj: ..\shared\headers\errors.h
+CMakeFiles\Labs.dir\shared\src\errors.c.obj: ..\shared\src\errors.c
+
+CMakeFiles\Labs.dir\shared\src\messages.c.obj: ..\shared\headers\messages.h
+CMakeFiles\Labs.dir\shared\src\messages.c.obj: ..\shared\src\messages.c
+

@@ -3,3 +3,9 @@
 
 CMakeFiles/Labs.dir/main.c.obj
  D:/Egyetem/Elso ev II/Adat1/Labor/Labs/main.c
+CMakeFiles/Labs.dir/shared/src/errors.c.obj
+ D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/headers/errors.h
+ D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/src/errors.c
+CMakeFiles/Labs.dir/shared/src/messages.c.obj
+ D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/headers/messages.h
+ D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/src/messages.c

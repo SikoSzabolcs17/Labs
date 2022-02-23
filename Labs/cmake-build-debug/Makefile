@@ -142,6 +142,54 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\main.c.s
 .PHONY : main.c.s
 
+shared\src\errors.obj: shared\src\errors.c.obj
+.PHONY : shared\src\errors.obj
+
+# target to build an object file
+shared\src\errors.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\shared\src\errors.c.obj
+.PHONY : shared\src\errors.c.obj
+
+shared\src\errors.i: shared\src\errors.c.i
+.PHONY : shared\src\errors.i
+
+# target to preprocess a source file
+shared\src\errors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\shared\src\errors.c.i
+.PHONY : shared\src\errors.c.i
+
+shared\src\errors.s: shared\src\errors.c.s
+.PHONY : shared\src\errors.s
+
+# target to generate assembly for a file
+shared\src\errors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\shared\src\errors.c.s
+.PHONY : shared\src\errors.c.s
+
+shared\src\messages.obj: shared\src\messages.c.obj
+.PHONY : shared\src\messages.obj
+
+# target to build an object file
+shared\src\messages.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\shared\src\messages.c.obj
+.PHONY : shared\src\messages.c.obj
+
+shared\src\messages.i: shared\src\messages.c.i
+.PHONY : shared\src\messages.i
+
+# target to preprocess a source file
+shared\src\messages.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\shared\src\messages.c.i
+.PHONY : shared\src\messages.c.i
+
+shared\src\messages.s: shared\src\messages.c.s
+.PHONY : shared\src\messages.s
+
+# target to generate assembly for a file
+shared\src\messages.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\shared\src\messages.c.s
+.PHONY : shared\src\messages.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -154,6 +202,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... shared/src/errors.obj
+	@echo ... shared/src/errors.i
+	@echo ... shared/src/errors.s
+	@echo ... shared/src/messages.obj
+	@echo ... shared/src/messages.i
+	@echo ... shared/src/messages.s
 .PHONY : help
 
 

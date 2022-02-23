@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/main.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/main.c.obj"
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/src/errors.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/shared/src/errors.c.obj"
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/src/messages.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/shared/src/messages.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 
