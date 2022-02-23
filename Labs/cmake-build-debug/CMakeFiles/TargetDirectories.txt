@@ -1,0 +1,3 @@
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/edit_cache.dir
