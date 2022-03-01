@@ -85,10 +85,16 @@
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/main.c">
 			<Option target="Labs"/>
 		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/user.h">
+			<Option target="Labs"/>
+		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/headers/errors.h">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/headers/messages.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/headers/useful.h">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/src/errors.c">
