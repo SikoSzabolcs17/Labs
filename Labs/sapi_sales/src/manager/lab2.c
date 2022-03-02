@@ -8,12 +8,16 @@ void testUserFunctionalites(){
 
     createUser(&user1);
     createUser(&user2);
-    createUser(&user2);
+    createUser(&user3);
 
     setUser(user1,"John Peterson",STUDENT,MALE,COMPUTER_SCIENCE, DateC(2003,10,3));
     setUser(user2,"Jane Austin", TEACHER,FEMALE,ENGINEERING, DateC(1996,12,5));
-    setUser(user1,"John Peterson",STUDENT,MALE,COMPUTER_SCIENCE, DateC(2003,10,3));
+    setUser(user3,"John Peterson",STUDENT,MALE,COMPUTER_SCIENCE, DateC(2003,10,3));
 
+
+    printUser(user1,CON);
+    printUser(user2,CON);
+    printUser(user3,CON);
 }
 
 void testProductFunctionalites(){

@@ -61,9 +61,9 @@ void setUser(
         Specialization specialization,
         Date birthdate);
 
-void printUser(User* user);
+void printUser(User* user,char * mode);
 
-void deleteUser(User**);
+void deleteUser(User** pUser);
 
 
 #endif //LABS_USER_H

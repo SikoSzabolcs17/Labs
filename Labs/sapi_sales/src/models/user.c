@@ -61,7 +61,10 @@ void setUser(User* newUser,char *name, UserType type, Gender gender, Specializat
 
 }
 
-void printUser(User *user) {
+void printUser(User *user, char* mode) {
+
+    freopen(mode,"r",stdin);
+
     printf("%s details:\n"
            "\t - ID: %i\n"
            "\t - TYPE: %s\n"
@@ -77,6 +80,8 @@ void printUser(User *user) {
            user->birthdate.year,
            user->birthdate.month,
            user->birthdate.day);
+
+    freopen("CON","r",stdin);
 
 
 }
