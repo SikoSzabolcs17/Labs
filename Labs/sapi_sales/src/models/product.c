@@ -27,6 +27,7 @@ void createProduct(Product** product){
 }
 void setProduct(Product* product,char* id,char* name,ProductType type,unsigned int amount){
     strcpy(product->id,id);
+
     strcpy(product->name,name);
     product->type = type;
     product->amount = amount;
