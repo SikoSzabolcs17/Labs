@@ -32,6 +32,9 @@ typedef enum{
 
 }Specialization;
 
+typedef struct{
+    int year,month,day;
+}Date;
 
 typedef struct{
     unsigned int id;
@@ -39,22 +42,28 @@ typedef struct{
     UserType type;
     Gender gender;
     Specialization specialization;
-    unsigned int birthYear;
+    Date birthdate;
 
 }User;
 
 char* getUserType( UserType type);
 char* getGender( Gender type);
 char* getSpecialization( Specialization type);
+void createUser(User**);
 
-User* createUser(
+Date DateC(int year,int month,int day);
+
+void setUser(
+        User* user,
         char* name,
         UserType type,
         Gender gender,
         Specialization specialization,
-        unsigned int birthYear);
+        Date birthdate);
 
 void printUser(User* user);
+
+void deleteUser(User**);
 
 
 #endif //LABS_USER_H

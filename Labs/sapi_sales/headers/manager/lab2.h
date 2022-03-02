@@ -5,4 +5,12 @@
 #ifndef MAIN_C_LAB2_H
 #define MAIN_C_LAB2_H
 
+#include "../models/user.h"
+#include "../models/product.h"
+
+// Basic User and Product functionalites
+
+void testUserFunctionalites();
+void testProductFunctionalites();
+
 #endif //MAIN_C_LAB2_H

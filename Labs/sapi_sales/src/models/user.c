@@ -50,18 +50,15 @@ char *getSpecialization(Specialization type) {
     }
 }
 
-User *createUser(char *name, UserType type, Gender gender, Specialization specialization, unsigned int birthYear) {
-
-    User* newUser = (User*) malloc(sizeof(User));
+void setUser(User* newUser,char *name, UserType type, Gender gender, Specialization specialization, Date birthdate) {
 
     newUser->id = ++numberOfUser;
     newUser->specialization = specialization;
-    newUser->birthYear = birthYear;
+    newUser->birthdate = birthdate;
     newUser->gender = gender;
     newUser->type = type;
     strcpy(newUser->name, name);
 
-    return newUser;
 }
 
 void printUser(User *user) {
@@ -70,12 +67,32 @@ void printUser(User *user) {
            "\t - TYPE: %s\n"
            "\t - SPECIALIZATION: %s\n"
            "\t - BIRTH YEAR: %i\n",
+           "\t - BIRTH MONTH: %i\n",
+           "\t - BIRTH DAY: %i\n",
            user->name,
            user->id,
            getUserType(user->type),
            getGender(user->gender),
            getSpecialization(user->specialization),
-           user->birthYear);
+           user->birthdate.year,
+           user->birthdate.month,
+           user->birthdate.day);
 
+
+}
+Date DateC(int year,int month,int day){
+    Date date1;
+    date1.year = year;
+    date1.month = month;
+    date1.day = day;
+
+    return date1;
+}
+
+void createUser(User ** newUser) {
+    *newUser = (User*) malloc(sizeof(User));
+}
+void deleteUser(User** pUser){
+    free(*pUser);
 }
 

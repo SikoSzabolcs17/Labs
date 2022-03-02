@@ -4,14 +4,26 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/main.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/main.c.obj"
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab2.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/manager/lab2.c.obj"
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab_manager.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/manager/lab_manager.c.obj"
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/product.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/models/product.c.obj"
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/user.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/models/user.c.obj"
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/src/errors.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/shared/src/errors.c.obj"
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/src/messages.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/shared/src/messages.c.obj"
+  )
+set(CMAKE_C_COMPILER_ID "MSVC")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/A_Egyetem/Elso ev II/Adatszerkerezetek/Labor/SapiSales/Labs/main.c" "CMakeFiles/Labs.dir/main.c.obj" "msvc" "CMakeFiles/Labs.dir/main.c.obj.d"
-  "D:/A_Egyetem/Elso ev II/Adatszerkerezetek/Labor/SapiSales/Labs/sapi_sales/src/models/user.c" "CMakeFiles/Labs.dir/sapi_sales/src/models/user.c.obj" "msvc" "CMakeFiles/Labs.dir/sapi_sales/src/models/user.c.obj.d"
-  "D:/A_Egyetem/Elso ev II/Adatszerkerezetek/Labor/SapiSales/Labs/shared/src/errors.c" "CMakeFiles/Labs.dir/shared/src/errors.c.obj" "msvc" "CMakeFiles/Labs.dir/shared/src/errors.c.obj.d"
-  "D:/A_Egyetem/Elso ev II/Adatszerkerezetek/Labor/SapiSales/Labs/shared/src/messages.c" "CMakeFiles/Labs.dir/shared/src/messages.c.obj" "msvc" "CMakeFiles/Labs.dir/shared/src/messages.c.obj.d"
   )
 
 # Targets to which this target links.
