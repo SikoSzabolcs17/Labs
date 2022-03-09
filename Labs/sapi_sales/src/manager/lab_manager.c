@@ -5,12 +5,15 @@
 
 
 void lab2(){
-    printDescreptionMessage(LAB2);
+    /*printDescreptionMessage(LAB2);
     testUserFunctionalites();
-    testProductFunctionalites();
+    testProductFunctionalites();*/
 }
+
 void lab3(){
-    printDescreptionMessage(LAB3);
+
+    testUserArrayFunctionalities();
+    //printDescreptionMessage(LAB3);
 }
 
 
