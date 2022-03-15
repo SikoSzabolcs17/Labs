@@ -21,7 +21,14 @@ void deleteUserArray(UserArray** userArray){
 bool addNewUser(UserArray* userArray, User* newUser){
     if(userArray->capacity > userArray->numberOfUsers){
 
-        userArray->users[userArray->numberOfUsers] = newUser;
+        userArray->users[userArray->numberOfUsers]->id=newUser->id;
+        userArray->users[userArray->numberOfUsers]->specialization = newUser->specialization;
+        userArray->users[userArray->numberOfUsers]->gender = newUser->gender;
+        userArray->users[userArray->numberOfUsers]->birthdate = newUser->birthdate;
+        userArray->users[userArray->numberOfUsers]->type = newUser->type;
+
+        strcpy(userArray->users[userArray->numberOfUsers]->name,newUser->name);
+
         userArray->numberOfUsers++;
 
         return true;
