@@ -42,10 +42,6 @@ CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.obj: ..\sap
 CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.obj: ..\sapi_sales\headers\models\structures\product_array.h
 CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.obj: ..\sapi_sales\src\models\strucutres\product_array.c
 
-CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj: ..\sapi_sales\headers\models\product.h
-CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj: ..\sapi_sales\headers\models\structures\product_stack.h
-CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj: ..\sapi_sales\src\models\strucutres\product_stack.c
-
 CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_array.c.obj: ..\sapi_sales\headers\models\structures\user_array.h
 CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_array.c.obj: ..\sapi_sales\headers\models\user.h
 CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_array.c.obj: ..\sapi_sales\src\models\strucutres\user_array.c
