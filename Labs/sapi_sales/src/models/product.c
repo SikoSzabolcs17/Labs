@@ -32,6 +32,13 @@ void setProduct(Product* product,char* id,char* name,ProductType type,unsigned i
     product->amount = amount;
     product->creationDate = time(NULL);
 }
+void copyProduct(Product* destination,Product* from){
+    strcpy(destination->id,from->id);
+    strcpy(destination->name,from->name);
+    destination->type = from->type;
+    destination->creationDate = from->creationDate;
+    destination->amount = from->amount;
+}
 void setPrice(Product* product,double price){
     product->price = price;
 }

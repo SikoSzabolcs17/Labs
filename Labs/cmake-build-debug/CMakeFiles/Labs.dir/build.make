@@ -245,6 +245,25 @@ CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.s: cmake_fo
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.s /c "D:\Egyetem\Elso ev II\Adat1\Labor\Labs\sapi_sales\src\models\strucutres\product_array.c"
 <<
 
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj: CMakeFiles\Labs.dir\flags.make
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj: ..\sapi_sales\src\models\strucutres\product_stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Egyetem\Elso ev II\Adat1\Labor\Labs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Labs.dir/sapi_sales/src/models/strucutres/product_stack.c.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj /FdCMakeFiles\Labs.dir\ /FS -c "D:\Egyetem\Elso ev II\Adat1\Labor\Labs\sapi_sales\src\models\strucutres\product_stack.c"
+<<
+
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Labs.dir/sapi_sales/src/models/strucutres/product_stack.c.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Egyetem\Elso ev II\Adat1\Labor\Labs\sapi_sales\src\models\strucutres\product_stack.c"
+<<
+
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Labs.dir/sapi_sales/src/models/strucutres/product_stack.c.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.s /c "D:\Egyetem\Elso ev II\Adat1\Labor\Labs\sapi_sales\src\models\strucutres\product_stack.c"
+<<
+
 # Object files for target Labs
 Labs_OBJECTS = \
 "CMakeFiles\Labs.dir\main.c.obj" \
@@ -256,7 +275,8 @@ Labs_OBJECTS = \
 "CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj" \
 "CMakeFiles\Labs.dir\sapi_sales\src\manager\lab3.c.obj" \
 "CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_array.c.obj" \
-"CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.obj"
+"CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.obj" \
+"CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj"
 
 # External object files for target Labs
 Labs_EXTERNAL_OBJECTS =
@@ -271,9 +291,10 @@ Labs.exe: CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj
 Labs.exe: CMakeFiles\Labs.dir\sapi_sales\src\manager\lab3.c.obj
 Labs.exe: CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_array.c.obj
 Labs.exe: CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.obj
+Labs.exe: CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj
 Labs.exe: CMakeFiles\Labs.dir\build.make
 Labs.exe: CMakeFiles\Labs.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Egyetem\Elso ev II\Adat1\Labor\Labs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable Labs.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Egyetem\Elso ev II\Adat1\Labor\Labs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable Labs.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Labs.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Labs.dir\objects1.rsp @<<
  /out:Labs.exe /implib:Labs.lib /pdb:"D:\Egyetem\Elso ev II\Adat1\Labor\Labs\cmake-build-debug\Labs.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
