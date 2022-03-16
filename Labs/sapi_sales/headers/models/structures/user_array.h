@@ -20,5 +20,6 @@ void createUserArray(UserArray** userArray,unsigned int maxUsers);
 void deleteUserArray(UserArray** userArray);
 bool addNewUser(UserArray* userArray, User* newUser);
 User* getUserAtPosition(UserArray* userArray,int position);
+int searchById(UserArray*,int id);
 
 #endif //LABS_USER_ARRAY_H

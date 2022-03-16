@@ -42,4 +42,12 @@ bool addNewUser(UserArray* userArray, User* newUser){
 User* getUserAtPosition(UserArray* userArray,int position){
     return userArray->users[position];
 }
+int searchById(UserArray* userArray,int id){
+    for (int i = 0; i < userArray->numberOfUsers; ++i) {
+        if(userArray->users[i]->id == id){
+            return i;
+        }
+    }
+    return -1;
+}
 
