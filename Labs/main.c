@@ -1,10 +1,10 @@
 #include <stdio.h>
+#include "sapi_sales/headers/manager/lab_manager.h"
+
 
 
 int main() {
-    int i=1;
-    printf("Hello, World!\n");
 
-    //printf("%s",__func__ );
+    //lab5();
     return 0;
 }

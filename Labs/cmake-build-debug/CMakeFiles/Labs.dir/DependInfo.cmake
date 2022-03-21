@@ -10,8 +10,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/main.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/main.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab2.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/manager/lab2.c.obj"
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab3.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/manager/lab3.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab_manager.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/manager/lab_manager.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/product.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/models/product.c.obj"
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/product_array.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/models/strucutres/product_array.c.obj"
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/user_array.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/models/strucutres/user_array.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/user.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/models/user.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/src/errors.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/shared/src/errors.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/src/messages.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/shared/src/messages.c.obj"
