@@ -3,7 +3,7 @@
 //
 #include "../../headers/models/user.h"
 
-int numberOfUser = 0;
+static int numberOfUser = 0;
 
 char *getUserType(UserType type) {
     switch (type) {

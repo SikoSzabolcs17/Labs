@@ -42,4 +42,6 @@ void printProduct(Product* product);
 
 void deleteProduct(Product**);
 
+void copyProduct(Product* destination,Product* from);
+
 #endif //LABS_PRODUCT_H

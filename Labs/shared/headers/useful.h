@@ -9,4 +9,5 @@
 #define FILE "input.txt"
 
 
+
 #endif //LABS_USEFUL_H

@@ -262,6 +262,30 @@ sapi_sales\src\models\strucutres\product_array.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.s
 .PHONY : sapi_sales\src\models\strucutres\product_array.c.s
 
+sapi_sales\src\models\strucutres\product_stack.obj: sapi_sales\src\models\strucutres\product_stack.c.obj
+.PHONY : sapi_sales\src\models\strucutres\product_stack.obj
+
+# target to build an object file
+sapi_sales\src\models\strucutres\product_stack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj
+.PHONY : sapi_sales\src\models\strucutres\product_stack.c.obj
+
+sapi_sales\src\models\strucutres\product_stack.i: sapi_sales\src\models\strucutres\product_stack.c.i
+.PHONY : sapi_sales\src\models\strucutres\product_stack.i
+
+# target to preprocess a source file
+sapi_sales\src\models\strucutres\product_stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.i
+.PHONY : sapi_sales\src\models\strucutres\product_stack.c.i
+
+sapi_sales\src\models\strucutres\product_stack.s: sapi_sales\src\models\strucutres\product_stack.c.s
+.PHONY : sapi_sales\src\models\strucutres\product_stack.s
+
+# target to generate assembly for a file
+sapi_sales\src\models\strucutres\product_stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.s
+.PHONY : sapi_sales\src\models\strucutres\product_stack.c.s
+
 sapi_sales\src\models\strucutres\user_array.obj: sapi_sales\src\models\strucutres\user_array.c.obj
 .PHONY : sapi_sales\src\models\strucutres\user_array.obj
 
@@ -385,6 +409,9 @@ help:
 	@echo ... sapi_sales/src/models/strucutres/product_array.obj
 	@echo ... sapi_sales/src/models/strucutres/product_array.i
 	@echo ... sapi_sales/src/models/strucutres/product_array.s
+	@echo ... sapi_sales/src/models/strucutres/product_stack.obj
+	@echo ... sapi_sales/src/models/strucutres/product_stack.i
+	@echo ... sapi_sales/src/models/strucutres/product_stack.s
 	@echo ... sapi_sales/src/models/strucutres/user_array.obj
 	@echo ... sapi_sales/src/models/strucutres/user_array.i
 	@echo ... sapi_sales/src/models/strucutres/user_array.s

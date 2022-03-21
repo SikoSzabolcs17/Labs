@@ -100,6 +100,9 @@
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/structures/product_array.h">
 			<Option target="Labs"/>
 		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/structures/product_stack.h">
+			<Option target="Labs"/>
+		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/structures/user_array.h">
 			<Option target="Labs"/>
 		</Unit>
@@ -119,6 +122,9 @@
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/product_array.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/product_stack.c">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/user_array.c">

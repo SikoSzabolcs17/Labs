@@ -9,6 +9,10 @@ void createUserArray(UserArray** userArray,unsigned int maxUsers){
     (*userArray)->capacity = maxUsers;
     (*userArray)->numberOfUsers = 0;
 
+    for (int i = 0; i < maxUsers; ++i) {
+        createUser(&(*userArray)->users[i]);
+    }
+
 }
 void deleteUserArray(UserArray** userArray){
 
@@ -21,13 +25,13 @@ void deleteUserArray(UserArray** userArray){
 bool addNewUser(UserArray* userArray, User* newUser){
     if(userArray->capacity > userArray->numberOfUsers){
 
-        userArray->users[userArray->numberOfUsers]->id=newUser->id;
-        userArray->users[userArray->numberOfUsers]->specialization = newUser->specialization;
-        userArray->users[userArray->numberOfUsers]->gender = newUser->gender;
-        userArray->users[userArray->numberOfUsers]->birthdate = newUser->birthdate;
+        userArray->users[userArray->numberOfUsers]->id = newUser->id;
         userArray->users[userArray->numberOfUsers]->type = newUser->type;
-
+        userArray->users[userArray->numberOfUsers]->birthdate = newUser->birthdate;
+        userArray->users[userArray->numberOfUsers]->gender = newUser->gender;
+        userArray->users[userArray->numberOfUsers]->specialization = newUser->specialization;
         strcpy(userArray->users[userArray->numberOfUsers]->name,newUser->name);
+
 
         userArray->numberOfUsers++;
 
@@ -37,5 +41,13 @@ bool addNewUser(UserArray* userArray, User* newUser){
 }
 User* getUserAtPosition(UserArray* userArray,int position){
     return userArray->users[position];
+}
+int searchById(UserArray* userArray,int id){
+    for (int i = 0; i < userArray->numberOfUsers; ++i) {
+        if(userArray->users[i]->id == id){
+            return i;
+        }
+    }
+    return -1;
 }
 
