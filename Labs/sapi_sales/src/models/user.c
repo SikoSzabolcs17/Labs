@@ -8,12 +8,12 @@ static int numberOfUser = 0;
 char *getUserType(UserType type) {
     switch (type) {
         case STUDENT:
-            return "Studnet";
+            return "Student";
         case TEACHER:
             return "Teacher";
 
         default:
-            return "undefined";
+            return "Undefined";
     }
 }
 
@@ -68,9 +68,10 @@ void printUser(User *user, char* mode) {
     printf("%s details:\n"
            "\t - ID: %i\n"
            "\t - TYPE: %s\n"
+           "\t - GENDER: %s\n"
            "\t - SPECIALIZATION: %s\n"
-           "\t - BIRTH YEAR: %i\n",
-           "\t - BIRTH MONTH: %i\n",
+           "\t - BIRTH YEAR: %i\n"
+           "\t - BIRTH MONTH: %i\n"
            "\t - BIRTH DAY: %i\n",
            user->name,
            user->id,
@@ -99,5 +100,14 @@ void createUser(User ** newUser) {
 }
 void deleteUser(User** pUser){
     free(*pUser);
+}
+
+void copyUser(User *destination, User *from) {
+    destination->birthdate = from->birthdate;
+    strcpy(destination->name,from->name);
+    destination->gender = from->gender;
+    destination->type = from->type;
+    destination->specialization = from->specialization;
+    destination->id = from->id;
 }
 

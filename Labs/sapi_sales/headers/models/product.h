@@ -11,6 +11,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+#include "../../../shared/headers/errors.h"
+#include "../../../shared/headers/messages.h"
 
 typedef enum {
     GROCERY,

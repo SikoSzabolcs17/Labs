@@ -18,6 +18,7 @@ typedef struct{
 
 void createProductStack(ProductStack** productStack,unsigned int capacity);
 void push(ProductStack* productStack,Product* product);
+void pop(ProductStack* productStack);
 Product* top(ProductStack* productStack);
 bool stackIsEmpty(ProductStack* productStack);
 bool stackIsFull(ProductStack* productStack);

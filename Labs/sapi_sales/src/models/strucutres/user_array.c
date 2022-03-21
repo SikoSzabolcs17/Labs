@@ -16,7 +16,7 @@ void createUserArray(UserArray** userArray,unsigned int maxUsers){
 }
 void deleteUserArray(UserArray** userArray){
 
-    for (int i = 0; i < (*userArray)->numberOfUsers; ++i) {
+    for (int i = 0; i < (*userArray)->capacity; ++i) {
         deleteUser(&(*userArray)->users[i]);
     }
     free((*userArray)->users);
@@ -25,13 +25,7 @@ void deleteUserArray(UserArray** userArray){
 bool addNewUser(UserArray* userArray, User* newUser){
     if(userArray->capacity > userArray->numberOfUsers){
 
-        userArray->users[userArray->numberOfUsers]->id = newUser->id;
-        userArray->users[userArray->numberOfUsers]->type = newUser->type;
-        userArray->users[userArray->numberOfUsers]->birthdate = newUser->birthdate;
-        userArray->users[userArray->numberOfUsers]->gender = newUser->gender;
-        userArray->users[userArray->numberOfUsers]->specialization = newUser->specialization;
-        strcpy(userArray->users[userArray->numberOfUsers]->name,newUser->name);
-
+        copyUser(userArray->users[userArray->numberOfUsers],newUser);
 
         userArray->numberOfUsers++;
 

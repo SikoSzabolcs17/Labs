@@ -19,13 +19,12 @@ char *getProductType(ProductType type) {
             return "Undefined";
     }
 
-
-    return NULL;
 }
 void createProduct(Product** product){
     *product = (Product*) malloc(sizeof(Product));
 }
 void setProduct(Product* product,char* id,char* name,ProductType type,unsigned int amount){
+
     strcpy(product->id,id);
     strcpy(product->name,name);
     product->type = type;
@@ -33,11 +32,13 @@ void setProduct(Product* product,char* id,char* name,ProductType type,unsigned i
     product->creationDate = time(NULL);
 }
 void copyProduct(Product* destination,Product* from){
+
     strcpy(destination->id,from->id);
     strcpy(destination->name,from->name);
     destination->type = from->type;
     destination->creationDate = from->creationDate;
     destination->amount = from->amount;
+    destination->price = from->price;
 }
 void setPrice(Product* product,double price){
     product->price = price;
@@ -46,7 +47,7 @@ void setPrice(Product* product,double price){
 void printProduct(Product* product){
     printf("%s details:\n"
            "\t - ID: %s\n"
-           "\t - TYPE: %d\n"
+           "\t - TYPE: %s\n"
            "\t - AMOUNT: %u\n"
            "\t - CREATION DATE: %ld\n",
            product->name,

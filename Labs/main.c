@@ -5,6 +5,6 @@
 
 int main() {
 
-    //lab3();
+    //lab5();
     return 0;
 }

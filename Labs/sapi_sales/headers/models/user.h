@@ -8,6 +8,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include "../../../shared/headers/errors.h"
+#include "../../../shared/headers/messages.h"
 
 typedef enum {
     STUDENT,
@@ -64,6 +66,8 @@ void setUser(
 void printUser(User* user,char * mode);
 
 void deleteUser(User** pUser);
+
+void copyUser(User * destination,User* from);
 
 
 #endif //LABS_USER_H

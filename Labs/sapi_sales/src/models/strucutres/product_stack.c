@@ -6,7 +6,7 @@
 void createProductStack(ProductStack** productStack,unsigned int capacity){
     *productStack = (ProductStack*) malloc(sizeof(ProductStack));
     (*productStack)->capacity = capacity;
-
+    (*productStack)->top = 0;
     (*productStack)->products = (Product**) malloc(capacity*sizeof(Product*));
 
     for (int i = 0; i < capacity; ++i) {
@@ -14,8 +14,8 @@ void createProductStack(ProductStack** productStack,unsigned int capacity){
     }
 }
 void push(ProductStack* productStack,Product* product){
-    copyProduct(productStack->products[productStack->capacity],product);
-    productStack->capacity++;
+    copyProduct(productStack->products[productStack->top],product);
+    productStack->top++;
 }
 void pop(ProductStack* productStack){
 
@@ -23,7 +23,11 @@ void pop(ProductStack* productStack){
     productStack->top--;
 }
 Product* top(ProductStack* productStack){
-    return productStack->products[productStack->top];
+    if(productStack->top > 0){
+        return productStack->products[productStack->top-1];
+    }
+    else return NULL;
+
 }
 bool stackIsEmpty(ProductStack* productStack){
     if(top(productStack)==NULL){
