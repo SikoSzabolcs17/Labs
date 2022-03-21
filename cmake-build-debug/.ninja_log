@@ -1,0 +1,17 @@
+# ninja log v5
+16	152	6690713919628111	CMakeFiles/SapiSales.dir/Labor1/elsoFeladat.c.obj	2a00dec7108ed2b2
+1	161	6690713919697929	CMakeFiles/SapiSales.dir/Labor1/harmadikFeladat.c.obj	bb96ab3d35930047
+21	171	6690713919737818	CMakeFiles/SapiSales.dir/Labor1/negyedikFeladat.c.obj	d1e6d89b58d6962b
+36	176	6690713919687948	CMakeFiles/SapiSales.dir/Labor1/SumFunctions.c.obj	a901fc62d0d14dfa
+18	181	6690713919777716	CMakeFiles/SapiSales.dir/Labor1/masodikFeladat.c.obj	38908c21aee44532
+24	245	6690713920596178	CMakeFiles/SapiSales.dir/Labor1/main.c.obj	42c6d3f9b937a9b9
+32	257	6690713920705890	CMakeFiles/SapiSales.dir/Labs/sapi_sales/src/manager/lab_manager.c.obj	7cd085f75e222789
+49	258	6690713920725839	CMakeFiles/SapiSales.dir/Labs/sapi_sales/src/manager/lab2.c.obj	c97bac1769b51057
+153	272	6690713920785681	CMakeFiles/SapiSales.dir/Labs/sapi_sales/src/models/strucutres/user_array.c.obj	82085358224fb4a7
+27	284	6690713920845514	CMakeFiles/SapiSales.dir/Labs/sapi_sales/src/models/product.c.obj	33ac401162b2e4de
+53	285	6690713920935271	CMakeFiles/SapiSales.dir/Labs/sapi_sales/src/manager/lab3.c.obj	ef2e2ea875aa624a
+171	293	6690713921094846	CMakeFiles/SapiSales.dir/Labs/shared/src/errors.c.obj	40071f77d5da0b5f
+176	298	6690713921164665	CMakeFiles/SapiSales.dir/Labs/shared/src/messages.c.obj	ddabdb60b7ec200f
+161	303	6690713921214526	CMakeFiles/SapiSales.dir/Labs/sapi_sales/src/models/strucutres/product_array.c.obj	d213e0f08b3209b0
+182	312	6690713921314255	CMakeFiles/SapiSales.dir/Labs/sapi_sales/src/models/user.c.obj	36d4b8602d975032
+245	339	6690713921583542	CMakeFiles/SapiSales.dir/Labs/main.c.obj	aa67aa8307b3ba4

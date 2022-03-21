@@ -1,0 +1,3 @@
+D:/A_Egyetem/Elso ev II/Prog2/SapiSales/cmake-build-debug/CMakeFiles/SapiSales.dir
+D:/A_Egyetem/Elso ev II/Prog2/SapiSales/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/A_Egyetem/Elso ev II/Prog2/SapiSales/cmake-build-debug/CMakeFiles/rebuild_cache.dir
