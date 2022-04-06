@@ -190,6 +190,30 @@ sapi_sales\src\manager\lab3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab3.c.s
 .PHONY : sapi_sales\src\manager\lab3.c.s
 
+sapi_sales\src\manager\lab5.obj: sapi_sales\src\manager\lab5.c.obj
+.PHONY : sapi_sales\src\manager\lab5.obj
+
+# target to build an object file
+sapi_sales\src\manager\lab5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab5.c.obj
+.PHONY : sapi_sales\src\manager\lab5.c.obj
+
+sapi_sales\src\manager\lab5.i: sapi_sales\src\manager\lab5.c.i
+.PHONY : sapi_sales\src\manager\lab5.i
+
+# target to preprocess a source file
+sapi_sales\src\manager\lab5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab5.c.i
+.PHONY : sapi_sales\src\manager\lab5.c.i
+
+sapi_sales\src\manager\lab5.s: sapi_sales\src\manager\lab5.c.s
+.PHONY : sapi_sales\src\manager\lab5.s
+
+# target to generate assembly for a file
+sapi_sales\src\manager\lab5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab5.c.s
+.PHONY : sapi_sales\src\manager\lab5.c.s
+
 sapi_sales\src\manager\lab_manager.obj: sapi_sales\src\manager\lab_manager.c.obj
 .PHONY : sapi_sales\src\manager\lab_manager.obj
 
@@ -400,6 +424,9 @@ help:
 	@echo ... sapi_sales/src/manager/lab3.obj
 	@echo ... sapi_sales/src/manager/lab3.i
 	@echo ... sapi_sales/src/manager/lab3.s
+	@echo ... sapi_sales/src/manager/lab5.obj
+	@echo ... sapi_sales/src/manager/lab5.i
+	@echo ... sapi_sales/src/manager/lab5.s
 	@echo ... sapi_sales/src/manager/lab_manager.obj
 	@echo ... sapi_sales/src/manager/lab_manager.i
 	@echo ... sapi_sales/src/manager/lab_manager.s

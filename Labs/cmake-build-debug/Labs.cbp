@@ -91,6 +91,9 @@
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/manager/lab3.h">
 			<Option target="Labs"/>
 		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/manager/lab5.h">
+			<Option target="Labs"/>
+		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/manager/lab_manager.h">
 			<Option target="Labs"/>
 		</Unit>
@@ -113,6 +116,9 @@
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab3.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab5.c">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab_manager.c">

@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Labs.dir/main.c.obj"
   "CMakeFiles/Labs.dir/sapi_sales/src/manager/lab2.c.obj"
   "CMakeFiles/Labs.dir/sapi_sales/src/manager/lab3.c.obj"
+  "CMakeFiles/Labs.dir/sapi_sales/src/manager/lab5.c.obj"
   "CMakeFiles/Labs.dir/sapi_sales/src/manager/lab_manager.c.obj"
   "CMakeFiles/Labs.dir/sapi_sales/src/models/product.c.obj"
   "CMakeFiles/Labs.dir/sapi_sales/src/models/strucutres/product_array.c.obj"
