@@ -63,7 +63,7 @@ void setUser(User* newUser,char *name, UserType type, Gender gender, Specializat
 
 void printUser(User *user, char* mode) {
 
-    freopen(mode,"r",stdin);
+    //freopen(mode,"w",stdout);
 
     printf("%s details:\n"
            "\t - ID: %i\n"
@@ -82,7 +82,7 @@ void printUser(User *user, char* mode) {
            user->birthdate.month,
            user->birthdate.day);
 
-    freopen("CON","r",stdin);
+    //freopen(mode,"w",stdout);
 
 
 }
@@ -103,7 +103,10 @@ void deleteUser(User** pUser){
 }
 
 void copyUser(User *destination, User *from) {
-    destination->birthdate = from->birthdate;
+    destination->birthdate.day = from->birthdate.day;
+    destination->birthdate.month = from->birthdate.month;
+    destination->birthdate.year = from->birthdate.year;
+
     strcpy(destination->name,from->name);
     destination->gender = from->gender;
     destination->type = from->type;
