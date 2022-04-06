@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/manager/lab8.h
+../models/user.h
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/user.h
+../models/structures/user_queue.h
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/structures/user_queue.h
+
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/structures/user_queue.h
+../user.h
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/user.h
+stdbool.h
+-
+
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/user.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+../../../shared/headers/errors.h
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/headers/errors.h
+../../../shared/headers/messages.h
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/headers/messages.h
+
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab8.c
+../../headers/manager/lab8.h
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/manager/lab8.h
+
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/headers/errors.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/Egyetem/Elso ev II/Adat1/Labor/Labs/shared/headers/messages.h
+stdio.h
+-
+
