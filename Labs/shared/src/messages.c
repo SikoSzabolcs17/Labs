@@ -4,7 +4,7 @@
 
 #include "../headers/messages.h"
 
-void printDescreptionMessage(enum LabType messageType) {
+void printDescriptionMessage(enum LabType messageType) {
     switch (messageType) {
         case LAB2:
             printf("\n\n*******************************************************\n\n");
@@ -24,6 +24,27 @@ void printDescreptionMessage(enum LabType messageType) {
         default:
             printf("Undefined description\n");
             break;
+    }
+}
+void printDeleteMessage(enum DeleteType deleteType){
+
+    switch (deleteType) {
+        case USER:
+            printf("User deleted...");
+            return;
+        case PRODUCT:
+            printf("Product deleted...");
+            return;
+
+        case USER_ARRAY:
+            printf("UserArray deleted...");
+            return;
+        case PRODUCT_ARRAY:
+            printf("ProductArray deleted...");
+            return;
+        default:
+            printf("Folyamatban");
+            return;
     }
 }
 

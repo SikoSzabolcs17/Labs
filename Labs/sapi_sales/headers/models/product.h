@@ -11,6 +11,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+#include "../../../shared/headers/errors.h"
+#include "../../../shared/headers/messages.h"
 
 typedef enum {
     GROCERY,
@@ -41,5 +43,7 @@ void setPrice(Product* product,double price);
 void printProduct(Product* product);
 
 void deleteProduct(Product**);
+
+void copyProduct(Product* destination,Product* from);
 
 #endif //LABS_PRODUCT_H

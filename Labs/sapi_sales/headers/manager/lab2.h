@@ -7,6 +7,7 @@
 
 #include "../models/user.h"
 #include "../models/product.h"
+#include "../../../shared/headers/useful.h"
 
 // Basic User and Product functionalites
 

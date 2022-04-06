@@ -12,7 +12,14 @@ enum LabType{
     LAB3,
     LAB4,
 };
-void printDescreptionMessage(enum LabType messageType);
+enum DeleteType{
+    USER,
+    PRODUCT,
+    USER_ARRAY,
+    PRODUCT_ARRAY
+};
 
+void printDescriptionMessage(enum LabType messageType);
+void printDeleteMessage(enum DeleteType deleteType);
 
 #endif //LABS_MESSAGES_H

@@ -4,13 +4,24 @@
 #include "../../headers/manager/lab_manager.h"
 
 
+
 void lab2(){
-    printDescreptionMessage(LAB2);
+
+    printDescriptionMessage(LAB2);
     testUserFunctionalites();
     testProductFunctionalites();
 }
+
+
 void lab3(){
-    printDescreptionMessage(LAB3);
+
+    printDescriptionMessage(LAB3);
+    testUserArrayFunctionalities();
+    testProductArrayFunctionalities();
+
+}
+void lab5(){
+    testPorductStackFunctionalities();
 }
 
 
