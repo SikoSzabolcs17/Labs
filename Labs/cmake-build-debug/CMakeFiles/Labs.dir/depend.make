@@ -4,10 +4,14 @@
 CMakeFiles\Labs.dir\main.c.obj: ..\main.c
 CMakeFiles\Labs.dir\main.c.obj: ..\sapi_sales\headers\manager\lab2.h
 CMakeFiles\Labs.dir\main.c.obj: ..\sapi_sales\headers\manager\lab3.h
+CMakeFiles\Labs.dir\main.c.obj: ..\sapi_sales\headers\manager\lab5.h
+CMakeFiles\Labs.dir\main.c.obj: ..\sapi_sales\headers\manager\lab8.h
 CMakeFiles\Labs.dir\main.c.obj: ..\sapi_sales\headers\manager\lab_manager.h
 CMakeFiles\Labs.dir\main.c.obj: ..\sapi_sales\headers\models\product.h
 CMakeFiles\Labs.dir\main.c.obj: ..\sapi_sales\headers\models\structures\user_array.h
+CMakeFiles\Labs.dir\main.c.obj: ..\sapi_sales\headers\models\structures\user_queue.h
 CMakeFiles\Labs.dir\main.c.obj: ..\sapi_sales\headers\models\user.h
+CMakeFiles\Labs.dir\main.c.obj: ..\shared\headers\errors.h
 CMakeFiles\Labs.dir\main.c.obj: ..\shared\headers\messages.h
 CMakeFiles\Labs.dir\main.c.obj: ..\shared\headers\useful.h
 
@@ -15,39 +19,77 @@ CMakeFiles\Labs.dir\sapi_sales\src\manager\lab2.c.obj: ..\sapi_sales\headers\man
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab2.c.obj: ..\sapi_sales\headers\models\product.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab2.c.obj: ..\sapi_sales\headers\models\user.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab2.c.obj: ..\sapi_sales\src\manager\lab2.c
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab2.c.obj: ..\shared\headers\errors.h
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab2.c.obj: ..\shared\headers\messages.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab2.c.obj: ..\shared\headers\useful.h
 
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab3.c.obj: ..\sapi_sales\headers\manager\lab2.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab3.c.obj: ..\sapi_sales\headers\models\product.h
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab3.c.obj: ..\sapi_sales\headers\models\structures\product_array.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab3.c.obj: ..\sapi_sales\headers\models\structures\user_array.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab3.c.obj: ..\sapi_sales\headers\models\user.h
-CMakeFiles\Labs.dir\sapi_sales\src\manager\lab3.c.obj: ..\sapi_sales\src\manager\lab2.c
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab3.c.obj: ..\sapi_sales\src\manager\lab3.c
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab3.c.obj: ..\shared\headers\errors.h
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab3.c.obj: ..\shared\headers\messages.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab3.c.obj: ..\shared\headers\useful.h
+
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab5.c.obj: ..\sapi_sales\headers\manager\lab5.h
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab5.c.obj: ..\sapi_sales\src\manager\lab5.c
+
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab8.c.obj: ..\sapi_sales\headers\manager\lab8.h
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab8.c.obj: ..\sapi_sales\headers\models\structures\user_queue.h
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab8.c.obj: ..\sapi_sales\headers\models\user.h
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab8.c.obj: ..\sapi_sales\src\manager\lab8.c
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab8.c.obj: ..\shared\headers\errors.h
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab8.c.obj: ..\shared\headers\messages.h
 
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj: ..\sapi_sales\headers\manager\lab2.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj: ..\sapi_sales\headers\manager\lab3.h
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj: ..\sapi_sales\headers\manager\lab5.h
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj: ..\sapi_sales\headers\manager\lab8.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj: ..\sapi_sales\headers\manager\lab_manager.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj: ..\sapi_sales\headers\models\product.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj: ..\sapi_sales\headers\models\structures\user_array.h
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj: ..\sapi_sales\headers\models\structures\user_queue.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj: ..\sapi_sales\headers\models\user.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj: ..\sapi_sales\src\manager\lab_manager.c
+CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj: ..\shared\headers\errors.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj: ..\shared\headers\messages.h
 CMakeFiles\Labs.dir\sapi_sales\src\manager\lab_manager.c.obj: ..\shared\headers\useful.h
 
 CMakeFiles\Labs.dir\sapi_sales\src\models\product.c.obj: ..\sapi_sales\headers\models\product.h
 CMakeFiles\Labs.dir\sapi_sales\src\models\product.c.obj: ..\sapi_sales\src\models\product.c
+CMakeFiles\Labs.dir\sapi_sales\src\models\product.c.obj: ..\shared\headers\errors.h
+CMakeFiles\Labs.dir\sapi_sales\src\models\product.c.obj: ..\shared\headers\messages.h
 
 CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.obj: ..\sapi_sales\headers\models\product.h
 CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.obj: ..\sapi_sales\headers\models\structures\product_array.h
 CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.obj: ..\sapi_sales\src\models\strucutres\product_array.c
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.obj: ..\shared\headers\errors.h
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_array.c.obj: ..\shared\headers\messages.h
+
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj: ..\sapi_sales\headers\models\product.h
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj: ..\sapi_sales\headers\models\structures\product_stack.h
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj: ..\sapi_sales\src\models\strucutres\product_stack.c
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj: ..\shared\headers\errors.h
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\product_stack.c.obj: ..\shared\headers\messages.h
 
 CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_array.c.obj: ..\sapi_sales\headers\models\structures\user_array.h
 CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_array.c.obj: ..\sapi_sales\headers\models\user.h
 CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_array.c.obj: ..\sapi_sales\src\models\strucutres\user_array.c
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_array.c.obj: ..\shared\headers\errors.h
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_array.c.obj: ..\shared\headers\messages.h
+
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_queue.c.obj: ..\sapi_sales\headers\models\structures\user_queue.h
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_queue.c.obj: ..\sapi_sales\headers\models\user.h
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_queue.c.obj: ..\sapi_sales\src\models\strucutres\user_queue.c
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_queue.c.obj: ..\shared\headers\errors.h
+CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_queue.c.obj: ..\shared\headers\messages.h
 
 CMakeFiles\Labs.dir\sapi_sales\src\models\user.c.obj: ..\sapi_sales\headers\models\user.h
 CMakeFiles\Labs.dir\sapi_sales\src\models\user.c.obj: ..\sapi_sales\src\models\user.c
+CMakeFiles\Labs.dir\sapi_sales\src\models\user.c.obj: ..\shared\headers\errors.h
+CMakeFiles\Labs.dir\sapi_sales\src\models\user.c.obj: ..\shared\headers\messages.h
 
 CMakeFiles\Labs.dir\shared\src\errors.c.obj: ..\shared\headers\errors.h
 CMakeFiles\Labs.dir\shared\src\errors.c.obj: ..\shared\src\errors.c

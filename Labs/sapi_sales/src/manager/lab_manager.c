@@ -23,5 +23,9 @@ void lab3(){
 void lab5(){
     testPorductStackFunctionalities();
 }
+void lab8(){
+    printDescriptionMessage(LAB8);
+    testUserQueueFunctionalities();
+}
 
 
