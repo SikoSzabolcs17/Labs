@@ -27,5 +27,9 @@ void lab8(){
     printDescriptionMessage(LAB8);
     testUserQueueFunctionalities();
 }
+void lab9(){
+    printDescriptionMessage(LAB9);
+    testUserListFunctionalities();
+}
 
 

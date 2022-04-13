@@ -94,6 +94,12 @@
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/manager/lab5.h">
 			<Option target="Labs"/>
 		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/manager/lab8.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/manager/lab9.h">
+			<Option target="Labs"/>
+		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/manager/lab_manager.h">
 			<Option target="Labs"/>
 		</Unit>
@@ -109,6 +115,12 @@
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/structures/user_array.h">
 			<Option target="Labs"/>
 		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/structures/user_list.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/structures/user_queue.h">
+			<Option target="Labs"/>
+		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/user.h">
 			<Option target="Labs"/>
 		</Unit>
@@ -119,6 +131,12 @@
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab5.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab8.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab9.c">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab_manager.c">
@@ -134,6 +152,12 @@
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/user_array.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/user_list.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/user_queue.c">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/user.c">

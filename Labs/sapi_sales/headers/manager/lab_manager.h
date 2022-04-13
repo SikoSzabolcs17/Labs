@@ -10,11 +10,13 @@
 #include "lab3.h"
 #include "lab5.h"
 #include "lab8.h"
+#include "lab9.h"
 
 void lab2();
 void lab3();
 void lab5();
 void lab8();
+void lab9();
 
 
 #endif //MAIN_C_LAB_MANAGER_H

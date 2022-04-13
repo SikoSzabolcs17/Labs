@@ -214,6 +214,54 @@ sapi_sales\src\manager\lab5.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab5.c.s
 .PHONY : sapi_sales\src\manager\lab5.c.s
 
+sapi_sales\src\manager\lab8.obj: sapi_sales\src\manager\lab8.c.obj
+.PHONY : sapi_sales\src\manager\lab8.obj
+
+# target to build an object file
+sapi_sales\src\manager\lab8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab8.c.obj
+.PHONY : sapi_sales\src\manager\lab8.c.obj
+
+sapi_sales\src\manager\lab8.i: sapi_sales\src\manager\lab8.c.i
+.PHONY : sapi_sales\src\manager\lab8.i
+
+# target to preprocess a source file
+sapi_sales\src\manager\lab8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab8.c.i
+.PHONY : sapi_sales\src\manager\lab8.c.i
+
+sapi_sales\src\manager\lab8.s: sapi_sales\src\manager\lab8.c.s
+.PHONY : sapi_sales\src\manager\lab8.s
+
+# target to generate assembly for a file
+sapi_sales\src\manager\lab8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab8.c.s
+.PHONY : sapi_sales\src\manager\lab8.c.s
+
+sapi_sales\src\manager\lab9.obj: sapi_sales\src\manager\lab9.c.obj
+.PHONY : sapi_sales\src\manager\lab9.obj
+
+# target to build an object file
+sapi_sales\src\manager\lab9.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab9.c.obj
+.PHONY : sapi_sales\src\manager\lab9.c.obj
+
+sapi_sales\src\manager\lab9.i: sapi_sales\src\manager\lab9.c.i
+.PHONY : sapi_sales\src\manager\lab9.i
+
+# target to preprocess a source file
+sapi_sales\src\manager\lab9.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab9.c.i
+.PHONY : sapi_sales\src\manager\lab9.c.i
+
+sapi_sales\src\manager\lab9.s: sapi_sales\src\manager\lab9.c.s
+.PHONY : sapi_sales\src\manager\lab9.s
+
+# target to generate assembly for a file
+sapi_sales\src\manager\lab9.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab9.c.s
+.PHONY : sapi_sales\src\manager\lab9.c.s
+
 sapi_sales\src\manager\lab_manager.obj: sapi_sales\src\manager\lab_manager.c.obj
 .PHONY : sapi_sales\src\manager\lab_manager.obj
 
@@ -334,6 +382,54 @@ sapi_sales\src\models\strucutres\user_array.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_array.c.s
 .PHONY : sapi_sales\src\models\strucutres\user_array.c.s
 
+sapi_sales\src\models\strucutres\user_list.obj: sapi_sales\src\models\strucutres\user_list.c.obj
+.PHONY : sapi_sales\src\models\strucutres\user_list.obj
+
+# target to build an object file
+sapi_sales\src\models\strucutres\user_list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_list.c.obj
+.PHONY : sapi_sales\src\models\strucutres\user_list.c.obj
+
+sapi_sales\src\models\strucutres\user_list.i: sapi_sales\src\models\strucutres\user_list.c.i
+.PHONY : sapi_sales\src\models\strucutres\user_list.i
+
+# target to preprocess a source file
+sapi_sales\src\models\strucutres\user_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_list.c.i
+.PHONY : sapi_sales\src\models\strucutres\user_list.c.i
+
+sapi_sales\src\models\strucutres\user_list.s: sapi_sales\src\models\strucutres\user_list.c.s
+.PHONY : sapi_sales\src\models\strucutres\user_list.s
+
+# target to generate assembly for a file
+sapi_sales\src\models\strucutres\user_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_list.c.s
+.PHONY : sapi_sales\src\models\strucutres\user_list.c.s
+
+sapi_sales\src\models\strucutres\user_queue.obj: sapi_sales\src\models\strucutres\user_queue.c.obj
+.PHONY : sapi_sales\src\models\strucutres\user_queue.obj
+
+# target to build an object file
+sapi_sales\src\models\strucutres\user_queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_queue.c.obj
+.PHONY : sapi_sales\src\models\strucutres\user_queue.c.obj
+
+sapi_sales\src\models\strucutres\user_queue.i: sapi_sales\src\models\strucutres\user_queue.c.i
+.PHONY : sapi_sales\src\models\strucutres\user_queue.i
+
+# target to preprocess a source file
+sapi_sales\src\models\strucutres\user_queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_queue.c.i
+.PHONY : sapi_sales\src\models\strucutres\user_queue.c.i
+
+sapi_sales\src\models\strucutres\user_queue.s: sapi_sales\src\models\strucutres\user_queue.c.s
+.PHONY : sapi_sales\src\models\strucutres\user_queue.s
+
+# target to generate assembly for a file
+sapi_sales\src\models\strucutres\user_queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_queue.c.s
+.PHONY : sapi_sales\src\models\strucutres\user_queue.c.s
+
 sapi_sales\src\models\user.obj: sapi_sales\src\models\user.c.obj
 .PHONY : sapi_sales\src\models\user.obj
 
@@ -427,6 +523,12 @@ help:
 	@echo ... sapi_sales/src/manager/lab5.obj
 	@echo ... sapi_sales/src/manager/lab5.i
 	@echo ... sapi_sales/src/manager/lab5.s
+	@echo ... sapi_sales/src/manager/lab8.obj
+	@echo ... sapi_sales/src/manager/lab8.i
+	@echo ... sapi_sales/src/manager/lab8.s
+	@echo ... sapi_sales/src/manager/lab9.obj
+	@echo ... sapi_sales/src/manager/lab9.i
+	@echo ... sapi_sales/src/manager/lab9.s
 	@echo ... sapi_sales/src/manager/lab_manager.obj
 	@echo ... sapi_sales/src/manager/lab_manager.i
 	@echo ... sapi_sales/src/manager/lab_manager.s
@@ -442,6 +544,12 @@ help:
 	@echo ... sapi_sales/src/models/strucutres/user_array.obj
 	@echo ... sapi_sales/src/models/strucutres/user_array.i
 	@echo ... sapi_sales/src/models/strucutres/user_array.s
+	@echo ... sapi_sales/src/models/strucutres/user_list.obj
+	@echo ... sapi_sales/src/models/strucutres/user_list.i
+	@echo ... sapi_sales/src/models/strucutres/user_list.s
+	@echo ... sapi_sales/src/models/strucutres/user_queue.obj
+	@echo ... sapi_sales/src/models/strucutres/user_queue.i
+	@echo ... sapi_sales/src/models/strucutres/user_queue.s
 	@echo ... sapi_sales/src/models/user.obj
 	@echo ... sapi_sales/src/models/user.i
 	@echo ... sapi_sales/src/models/user.s

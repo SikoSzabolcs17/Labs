@@ -66,7 +66,7 @@ void deleteQueue(UserQueue** userQueue){
 }
 int findUser(UserQueue* userQueue,User* user){
     for (int i = userQueue->front; i <userQueue->rear ; ++i) {
-       if(equals(userQueue->users[i],user)){
+       if(userEquals(userQueue->users[i], user)){
            return user->id;
        }
     }
