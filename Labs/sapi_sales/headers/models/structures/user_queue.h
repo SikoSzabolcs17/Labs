@@ -24,5 +24,6 @@ void dequeue(UserQueue* userQueue);
 int findElementInQueue(UserQueue* userQueue, int userId);
 void printQueue(UserQueue* userQueue, char*destination);
 void deleteQueue(UserQueue** userQueue);
+int findUser(UserQueue* userQueue,User* user);
 
 #endif //LABS_USER_QUEUE_H

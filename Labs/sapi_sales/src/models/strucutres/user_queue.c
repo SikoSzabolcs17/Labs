@@ -64,3 +64,11 @@ void deleteQueue(UserQueue** userQueue){
 
     free(*userQueue);
 }
+int findUser(UserQueue* userQueue,User* user){
+    for (int i = userQueue->front; i <userQueue->rear ; ++i) {
+       if(equals(userQueue->users[i],user)){
+           return user->id;
+       }
+    }
+    return -1;
+}
