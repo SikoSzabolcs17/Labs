@@ -10,6 +10,7 @@
 #include <string.h>
 #include "../../../shared/headers/errors.h"
 #include "../../../shared/headers/messages.h"
+#include "stdbool.h"
 
 typedef enum {
     STUDENT,
@@ -68,6 +69,8 @@ void printUser(User* user,char * mode);
 void deleteUser(User** pUser);
 
 void copyUser(User * destination,User* from);
+
+bool userEquals(User* user1, User* user2);
 
 
 #endif //LABS_USER_H

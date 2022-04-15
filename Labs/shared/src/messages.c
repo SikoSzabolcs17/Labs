@@ -21,6 +21,19 @@ void printDescriptionMessage(enum LabType messageType) {
 
         case LAB4:
             break;
+
+        case LAB8:
+            printf("\n\n*******************************************************\n\n");
+            printf("Testing UserQueue functionalities");
+            printf("\n\n*******************************************************\n\n");
+            break;
+
+        case LAB9:
+            printf("\n\n*******************************************************\n\n");
+            printf("Testing UserList functionalities");
+            printf("\n\n*******************************************************\n\n");
+            break;
+
         default:
             printf("Undefined description\n");
             break;
