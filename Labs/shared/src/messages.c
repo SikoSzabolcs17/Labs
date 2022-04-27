@@ -33,6 +33,11 @@ void printDescriptionMessage(enum LabType messageType) {
             printf("Testing UserList functionalities");
             printf("\n\n*******************************************************\n\n");
             break;
+        case LAB10:
+            printf("\n\n*******************************************************\n\n");
+            printf("Testing Binary Search tree functionalities");
+            printf("\n\n*******************************************************\n\n");
+            break;
 
         default:
             printf("Undefined description\n");

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/main.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/main.c.obj"
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab10.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/manager/lab10.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab2.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/manager/lab2.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab3.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/manager/lab3.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab5.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/manager/lab5.c.obj"
@@ -19,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/product_array.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/models/strucutres/product_array.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/product_stack.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/models/strucutres/product_stack.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/user_array.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/models/strucutres/user_array.c.obj"
+  "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/user_binary_search_tree.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/models/strucutres/user_binary_search_tree.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/user_list.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/models/strucutres/user_list.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/user_queue.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/models/strucutres/user_queue.c.obj"
   "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/user.c" "D:/Egyetem/Elso ev II/Adat1/Labor/Labs/cmake-build-debug/CMakeFiles/Labs.dir/sapi_sales/src/models/user.c.obj"
