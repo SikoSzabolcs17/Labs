@@ -85,6 +85,9 @@
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/main.c">
 			<Option target="Labs"/>
 		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/manager/lab10.h">
+			<Option target="Labs"/>
+		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/manager/lab2.h">
 			<Option target="Labs"/>
 		</Unit>
@@ -115,6 +118,9 @@
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/structures/user_array.h">
 			<Option target="Labs"/>
 		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/structures/user_binary_search_tree.h">
+			<Option target="Labs"/>
+		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/structures/user_list.h">
 			<Option target="Labs"/>
 		</Unit>
@@ -122,6 +128,9 @@
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/headers/models/user.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab10.c">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/manager/lab2.c">
@@ -152,6 +161,9 @@
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/user_array.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/user_binary_search_tree.c">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="D:/Egyetem/Elso ev II/Adat1/Labor/Labs/sapi_sales/src/models/strucutres/user_list.c">

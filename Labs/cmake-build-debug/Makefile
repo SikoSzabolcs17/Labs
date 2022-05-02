@@ -142,6 +142,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\main.c.s
 .PHONY : main.c.s
 
+sapi_sales\src\manager\lab10.obj: sapi_sales\src\manager\lab10.c.obj
+.PHONY : sapi_sales\src\manager\lab10.obj
+
+# target to build an object file
+sapi_sales\src\manager\lab10.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab10.c.obj
+.PHONY : sapi_sales\src\manager\lab10.c.obj
+
+sapi_sales\src\manager\lab10.i: sapi_sales\src\manager\lab10.c.i
+.PHONY : sapi_sales\src\manager\lab10.i
+
+# target to preprocess a source file
+sapi_sales\src\manager\lab10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab10.c.i
+.PHONY : sapi_sales\src\manager\lab10.c.i
+
+sapi_sales\src\manager\lab10.s: sapi_sales\src\manager\lab10.c.s
+.PHONY : sapi_sales\src\manager\lab10.s
+
+# target to generate assembly for a file
+sapi_sales\src\manager\lab10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\manager\lab10.c.s
+.PHONY : sapi_sales\src\manager\lab10.c.s
+
 sapi_sales\src\manager\lab2.obj: sapi_sales\src\manager\lab2.c.obj
 .PHONY : sapi_sales\src\manager\lab2.obj
 
@@ -382,6 +406,30 @@ sapi_sales\src\models\strucutres\user_array.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_array.c.s
 .PHONY : sapi_sales\src\models\strucutres\user_array.c.s
 
+sapi_sales\src\models\strucutres\user_binary_search_tree.obj: sapi_sales\src\models\strucutres\user_binary_search_tree.c.obj
+.PHONY : sapi_sales\src\models\strucutres\user_binary_search_tree.obj
+
+# target to build an object file
+sapi_sales\src\models\strucutres\user_binary_search_tree.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_binary_search_tree.c.obj
+.PHONY : sapi_sales\src\models\strucutres\user_binary_search_tree.c.obj
+
+sapi_sales\src\models\strucutres\user_binary_search_tree.i: sapi_sales\src\models\strucutres\user_binary_search_tree.c.i
+.PHONY : sapi_sales\src\models\strucutres\user_binary_search_tree.i
+
+# target to preprocess a source file
+sapi_sales\src\models\strucutres\user_binary_search_tree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_binary_search_tree.c.i
+.PHONY : sapi_sales\src\models\strucutres\user_binary_search_tree.c.i
+
+sapi_sales\src\models\strucutres\user_binary_search_tree.s: sapi_sales\src\models\strucutres\user_binary_search_tree.c.s
+.PHONY : sapi_sales\src\models\strucutres\user_binary_search_tree.s
+
+# target to generate assembly for a file
+sapi_sales\src\models\strucutres\user_binary_search_tree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labs.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Labs.dir\sapi_sales\src\models\strucutres\user_binary_search_tree.c.s
+.PHONY : sapi_sales\src\models\strucutres\user_binary_search_tree.c.s
+
 sapi_sales\src\models\strucutres\user_list.obj: sapi_sales\src\models\strucutres\user_list.c.obj
 .PHONY : sapi_sales\src\models\strucutres\user_list.obj
 
@@ -514,6 +562,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sapi_sales/src/manager/lab10.obj
+	@echo ... sapi_sales/src/manager/lab10.i
+	@echo ... sapi_sales/src/manager/lab10.s
 	@echo ... sapi_sales/src/manager/lab2.obj
 	@echo ... sapi_sales/src/manager/lab2.i
 	@echo ... sapi_sales/src/manager/lab2.s
@@ -544,6 +595,9 @@ help:
 	@echo ... sapi_sales/src/models/strucutres/user_array.obj
 	@echo ... sapi_sales/src/models/strucutres/user_array.i
 	@echo ... sapi_sales/src/models/strucutres/user_array.s
+	@echo ... sapi_sales/src/models/strucutres/user_binary_search_tree.obj
+	@echo ... sapi_sales/src/models/strucutres/user_binary_search_tree.i
+	@echo ... sapi_sales/src/models/strucutres/user_binary_search_tree.s
 	@echo ... sapi_sales/src/models/strucutres/user_list.obj
 	@echo ... sapi_sales/src/models/strucutres/user_list.i
 	@echo ... sapi_sales/src/models/strucutres/user_list.s
