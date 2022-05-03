@@ -16,8 +16,16 @@ typedef struct UserTreeNode{
 void create(UserTreeNode**);
 void insert(UserTreeNode**, User*);
 bool search(UserTreeNode*, int);
-void inorderPrint(UserTreeNode*, char*);
-void preorderPrint(UserTreeNode*, char*);
-void delete(UserTreeNode**, int);
+void inOrderPrint(UserTreeNode*, char*);
+void preOrderPrint(UserTreeNode*, char*);
+void postOrderPrint(UserTreeNode*, char*);
+
+User* minimum(UserTreeNode*);
+User* maximum(UserTreeNode*);
+
+UserTreeNode* minimumNode(UserTreeNode*);
+
+UserTreeNode* delete(UserTreeNode**, int);
+void destroy(UserTreeNode**);
 
 #endif //LABS_USER_BINARY_SEARCH_TREE_H

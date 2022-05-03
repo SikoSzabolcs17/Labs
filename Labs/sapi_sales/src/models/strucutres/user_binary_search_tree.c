@@ -21,30 +21,11 @@ void insert(UserTreeNode** userTreeNode, User* user){
         copyUser((*userTreeNode)->info,user);
         return;
     }
-
-
-    while (temp != NULL){
-
-        if(temp->info->id < user->id){
-            if(temp->left !=NULL){
-                temp = temp->left;
-            }
-            else{
-                create(&temp->left);
-                copyUser(temp->left->info,user);
-                return;
-            }
-        }
-        else{
-            if(temp->right != NULL){
-                temp = temp->right;
-            }
-            else{
-                create(&temp->right);
-                copyUser(temp->right->info,user);
-                return;
-            }
-        }
+    else if(user->id < temp->info->id){
+        insert(&temp->left,user);
+    }
+    else{
+        insert(&temp->right,user);
     }
 }
 bool search(UserTreeNode* userTreeNode, int info){
@@ -55,24 +36,39 @@ bool search(UserTreeNode* userTreeNode, int info){
     if(info < userTreeNode->info->id){
         search(userTreeNode->left,info);
     }
-    else if(info < userTreeNode->info->id){
+    else if(info > userTreeNode->info->id){
         search(userTreeNode->right,info);
     } else{
         return true;
     }
-
 }
-void preorderPrint(UserTreeNode* userTreeNode, char* mode){
+
+
+void preOrderPrint(UserTreeNode* userTreeNode, char* mode){
     if(userTreeNode != NULL){
         printUser(userTreeNode->info,mode);
-        preorderPrint(userTreeNode->left,mode);
-        preorderPrint(userTreeNode->right,mode);
+        preOrderPrint(userTreeNode->left, mode);
+        preOrderPrint(userTreeNode->right, mode);
+    }
+}
+void inOrderPrint(UserTreeNode* userTreeNode, char* mode){
+    if(userTreeNode != NULL){
+        inOrderPrint(userTreeNode->left,mode);
+        printUser(userTreeNode->info,mode);
+        inOrderPrint(userTreeNode->right,mode);
+    }
+}
+void postOrderPrint(UserTreeNode* userTreeNode,char* mode){
+    if(userTreeNode != NULL){
+        postOrderPrint(userTreeNode->left,mode);
+        postOrderPrint(userTreeNode->right,mode);
+        printUser(userTreeNode->info,mode);
     }
 }
 
-void delete(UserTreeNode** pUserTreeNode, int info){
+UserTreeNode* delete(UserTreeNode** pUserTreeNode, int info){
     UserTreeNode* treeNode = *pUserTreeNode;
-
+    /*
     while (treeNode != NULL){
 
         if(treeNode->left != NULL && treeNode->left->info->id == info){
@@ -92,4 +88,41 @@ void delete(UserTreeNode** pUserTreeNode, int info){
             treeNode = treeNode->left;
         }
     }
+     */
+    if(treeNode == NULL){
+        return NULL;
+    }
+    if(info < treeNode->info->id){
+        treeNode->left = delete(&treeNode->left,info);
+    }
+    else if(info > treeNode->info->id){
+        treeNode->right = delete(&treeNode->right,info);
+    }
+    else{
+        if(treeNode->left == NULL){
+            UserTreeNode* temp = treeNode->right;
+            deleteUser(&treeNode->info);
+            return temp;
+        }
+        else if(treeNode->right == NULL){
+
+            UserTreeNode* temp = treeNode->left;
+            deleteUser(&treeNode->info);
+            return temp;
+        }
+        UserTreeNode* temp = minimumNode(treeNode->right);
+
+        copyUser(treeNode->info,temp->info);
+
+        treeNode->right = delete(&treeNode->right,temp->info->id);
+    }
+}
+UserTreeNode* minimumNode(UserTreeNode* treeNode){
+
+    UserTreeNode* temp = treeNode;
+
+    while (temp != NULL && temp->left != NULL){
+        temp = temp->left;
+    }
+    return temp;
 }

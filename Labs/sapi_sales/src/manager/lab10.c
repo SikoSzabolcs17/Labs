@@ -27,9 +27,18 @@ void testUserBSTFunctionalities(){
     insert(&userTreeNode,user4);
     insert(&userTreeNode,user5);
 
-    preorderPrint(userTreeNode,"CON");
+    printf("Preorder!\n");
+
+    preOrderPrint(userTreeNode, "CON");
 
     printf("*************************\n");
 
+    delete(&userTreeNode,1);
+
+    printf("Preorder!\n");
+
+    preOrderPrint(userTreeNode, "CON");
+
+    printf("*************************\n");
 
 }

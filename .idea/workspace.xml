@@ -1,20 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="Labs" targetName="Labs" />
+    </generated>
   </component>
-  <component name="CMakeSettings">
-    <configurations />
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1aa4def-f5a1-4099-8e4e-d3642b2d9111" name="Changes" comment="" />
+    <list default="true" id="f1aa4def-f5a1-4099-8e4e-d3642b2d9111" name="Changes" comment="Test commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/3.20.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/3.20.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/Labs.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/Labs.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/Labs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/Labs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/Labs.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/Labs.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/Labs.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/Labs.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/Labs.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/Labs.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/Labs.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/Labs.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/Labs.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/Labs.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/Labs.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/Labs.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/Labs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/Labs.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/sapi_sales/headers/models/structures/user_binary_search_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/sapi_sales/headers/models/structures/user_binary_search_tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/sapi_sales/src/manager/lab10.c" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/sapi_sales/src/manager/lab10.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/sapi_sales/src/models/strucutres/user_binary_search_tree.c" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/sapi_sales/src/models/strucutres/user_binary_search_tree.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="SikoSzabolcs17" />
+        <option name="repository" value="SapiSales" />
+      </RepoCoordinatesHolder>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Labs/sapi_sales/src/models/product.c" root0="FORCE_HIGHLIGHTING" />
@@ -22,9 +68,64 @@
     <setting file="file://$PROJECT_DIR$/Labs/sapi_sales/src/manager/lab_manager.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Labs/sapi_sales/headers/manager/lab_manager.h" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26o03q8QSAXG4EkTH2HcTHzADyR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Labs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Labs" TARGET_NAME="Labs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Labs" RUN_TARGET_NAME="Labs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Test commit">
+      <created>1647893645252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647893645252</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1aa4def-f5a1-4099-8e4e-d3642b2d9111" name="Changes" comment="Test commit" />
+      <created>1648074439084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648074439084</updated>
+      <workItem from="1648074440613" duration="4000" />
+      <workItem from="1648576112981" duration="1698000" />
+      <workItem from="1648588916036" duration="83000" />
+      <workItem from="1648762470966" duration="34000" />
+      <workItem from="1649189613104" duration="13000" />
+      <workItem from="1650016740203" duration="1282000" />
+      <workItem from="1650018041470" duration="18000" />
+      <workItem from="1650018063913" duration="801000" />
+      <workItem from="1650124312505" duration="48000" />
+      <workItem from="1651517366071" duration="4422000" />
+      <workItem from="1651522920735" duration="857000" />
+      <workItem from="1651606180260" duration="598000" />
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -36,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test commit" />
   </component>
 </project>
