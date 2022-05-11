@@ -8,191 +8,201 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/cmake-build-debug"/>
+				<Option working_dir="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/cmake-build-debug"/>
+				<Option working_dir="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Labs">
-				<Option output="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/cmake-build-debug/Labs.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/cmake-build-debug"/>
+				<Option output="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/cmake-build-debug/Labs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 Labs"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 Labs"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Labs/fast">
-				<Option output="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/cmake-build-debug/Labs.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/cmake-build-debug"/>
+				<Option output="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/cmake-build-debug/Labs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 Labs/fast"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 Labs/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/cmake-build-debug"/>
+				<Option working_dir="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\A_Egyetem\Elso ev II\Adatszerkerezetek\SapiSales\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\Egyetem\Elso ev II\Adatszerkerezetek\Labor\Labs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/main.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/main.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/manager/lab10.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/manager/lab10.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/manager/lab2.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/manager/lab12.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/manager/lab3.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/manager/lab2.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/manager/lab5.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/manager/lab3.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/manager/lab8.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/manager/lab5.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/manager/lab9.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/manager/lab8.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/manager/lab_manager.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/manager/lab9.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/models/product.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/manager/lab_manager.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/models/structures/product_array.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/models/product.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/models/structures/product_stack.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/models/structures/product_array.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/models/structures/user_array.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/models/structures/product_hash_table.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/models/structures/user_binary_search_tree.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/models/structures/product_stack.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/models/structures/user_list.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/models/structures/user_array.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/models/structures/user_queue.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/models/structures/user_binary_search_tree.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/headers/models/user.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/models/structures/user_list.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/manager/lab10.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/models/structures/user_queue.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/manager/lab2.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/headers/models/user.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/manager/lab3.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/manager/lab10.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/manager/lab5.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/manager/lab12.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/manager/lab8.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/manager/lab2.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/manager/lab9.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/manager/lab3.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/manager/lab_manager.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/manager/lab5.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/models/product.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/manager/lab8.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/models/strucutres/product_array.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/manager/lab9.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/models/strucutres/product_stack.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/manager/lab_manager.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/models/strucutres/user_array.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/models/product.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/models/strucutres/user_binary_search_tree.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/models/strucutres/product_array.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/models/strucutres/user_list.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/models/strucutres/product_hash_table.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/models/strucutres/user_queue.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/models/strucutres/product_stack.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/sapi_sales/src/models/user.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/models/strucutres/user_array.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/shared/headers/errors.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/models/strucutres/user_binary_search_tree.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/shared/headers/messages.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/models/strucutres/user_list.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/shared/headers/useful.h">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/models/strucutres/user_queue.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/shared/src/errors.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/sapi_sales/src/models/user.c">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/shared/src/messages.c">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/shared/headers/errors.h">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="D:/A_Egyetem/Elso ev II/Adatszerkerezetek/SapiSales/Labs/CMakeLists.txt">
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/shared/headers/messages.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/shared/headers/useful.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/shared/src/errors.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/shared/src/messages.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/Elso ev II/Adatszerkerezetek/Labor/Labs/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

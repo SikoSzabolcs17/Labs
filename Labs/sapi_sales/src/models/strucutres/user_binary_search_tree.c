@@ -68,27 +68,7 @@ void postOrderPrint(UserTreeNode* userTreeNode,char* mode){
 
 UserTreeNode* delete(UserTreeNode** pUserTreeNode, int info){
     UserTreeNode* treeNode = *pUserTreeNode;
-    /*
-    while (treeNode != NULL){
 
-        if(treeNode->left != NULL && treeNode->left->info->id == info){
-            deleteUser(&treeNode->left->info);
-            treeNode->left = NULL;
-            return;
-        }
-        else if(treeNode->right != NULL && treeNode->right->info->id == info){
-            deleteUser(&treeNode->right->info);
-            treeNode->right = NULL;
-            return;
-        }
-        if(treeNode->info->id < info){
-            treeNode = treeNode->right;
-        }
-        else{
-            treeNode = treeNode->left;
-        }
-    }
-     */
     if(treeNode == NULL){
         return NULL;
     }
@@ -125,4 +105,28 @@ UserTreeNode* minimumNode(UserTreeNode* treeNode){
         temp = temp->left;
     }
     return temp;
+}
+User* minimum(UserTreeNode* userTreeNode){
+    UserTreeNode* temp = userTreeNode;
+
+    if(temp == NULL){
+        return NULL;
+    }
+
+    while (temp != NULL && temp->left != NULL){
+        temp = temp->left;
+    }
+    return temp->info;
+}
+User* maximum(UserTreeNode* userTreeNode){
+    UserTreeNode* temp = userTreeNode;
+
+    if(temp == NULL){
+        return NULL;
+    }
+
+    while (temp != NULL && temp->right != NULL){
+        temp = temp->right;
+    }
+    return temp->info;
 }

@@ -35,4 +35,4 @@ add_executable(Labs main.c shared/headers/errors.h
         sapi_sales/src/manager/lab9.c
         sapi_sales/src/models/strucutres/user_binary_search_tree.c
         sapi_sales/headers/models/structures/user_binary_search_tree.h
-        sapi_sales/src/manager/lab10.c sapi_sales/headers/manager/lab10.h)
+        sapi_sales/src/manager/lab10.c sapi_sales/headers/manager/lab10.h sapi_sales/src/models/strucutres/product_hash_table.c sapi_sales/headers/models/structures/product_hash_table.h sapi_sales/src/manager/lab12.c sapi_sales/headers/manager/lab12.h)

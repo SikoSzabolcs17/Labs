@@ -15,6 +15,7 @@ enum LabType{
     LAB8,
     LAB9,
     LAB10,
+    LAB12,
 };
 enum DeleteType{
     USER,
